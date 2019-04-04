@@ -6,7 +6,7 @@ function findWaldo(arr,found){
   }
 }
 function actionWhenFound(i){// call abck function
-  console.log("Found " + "index" + i);
+  console.log("Found " +"index "  + i);
 
 }
 findWaldo(["Alice", "Bob", "Waldo", "Winston"],actionWhenFound);
