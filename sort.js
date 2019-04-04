@@ -18,7 +18,7 @@ students.sort(function(a,b){
     return 1;
   }
   if(a.name === b.name){
-  return a.age - b.age;
+  return b.age - a.age;
 }
 });
 console.log("------- sorted Items-------");
